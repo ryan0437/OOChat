@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MsgListView</class>
+ <widget class="QWidget" name="MsgListView">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>683</width>
+    <height>952</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QListView" name="listViewMsg">
+     <property name="styleSheet">
+      <string notr="true">QListView {
+    border: none;
+	background-color: rgb(255, 255, 255);
+}
+
+QScrollBar:vertical {
+    width: 10px;                          /* 滚动条宽度 */
+    background: transparent;
+    margin: 0px;                          /* 去掉边距 */
+    border-radius: 3px;                   /* 圆角 3px */
+}
+
+QScrollBar::handle:vertical {
+    background: rgba(212, 212, 212, 200); /* 滚动条滑块颜色 */
+    min-height: 20px;                     /* 滑块的最小高度 */
+    border-radius: 3px;                   /* 圆角 3px */
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    height: 0px;                          /* 隐藏上下箭头 */
+    width: 0px;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;                     /* 滑块背景透明 */
+}
+
+QListView::item:hover{
+	background-color: rgb(245,245,245);
+}
+
+QListView::item:selected{
+	background-color: rgb(0,153,255);
+}</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
