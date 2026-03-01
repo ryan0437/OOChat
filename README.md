@@ -15,4 +15,6 @@ OOChat - 基于 C++/Qt 的即时通讯系统
 
 服务器MySql配置在dbmanager.cpp内修改。
 
+演示视频：https://www.bilibili.com/video/BV1pCr6YcEt2/
+
 <img width="2249" height="1180" alt="image" src="https://github.com/user-attachments/assets/45037822-146f-490b-ab99-b606543892a8" />
